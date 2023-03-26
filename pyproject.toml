@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "finance-bot"
+version = "0.1.0"
+description = ""
+authors = ["kill-your-soul <Platonovdi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "finance_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+black = "^23.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
