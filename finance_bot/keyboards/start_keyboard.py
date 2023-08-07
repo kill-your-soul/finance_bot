@@ -8,8 +8,13 @@ start_keyboard_builder.row(
 )
 
 agreement_keyboard_builder = ReplyKeyboardBuilder()
-agreement_keyboard_builder.row(types.KeyboardButton(text="Оформить подписку"), types.KeyboardButton(text="Пробная версия на 7 дней"))
+agreement_keyboard_builder.row(
+    types.KeyboardButton(text="Оформить подписку"),
+    types.KeyboardButton(text="Пробная версия на 7 дней"),
+)
 
 main_keyboard = ReplyKeyboardBuilder()
-main_keyboard.row(types.KeyboardButton(text="Доходы"), types.KeyboardButton(text="Расходы"))
+main_keyboard.row(
+    types.KeyboardButton(text="Доходы"), types.KeyboardButton(text="Расходы")
+)
 main_keyboard.row(types.KeyboardButton(text="Отчеты"))
